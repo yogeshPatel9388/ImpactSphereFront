@@ -1,0 +1,34 @@
+# --------------------------
+# React Frontend Gitignore
+# --------------------------
+
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+build/
+out/
+
+# Local Env
+.env
+.env.*
+!.env.example
+
+# Vite / Next Cache
+.vite/
+.next/
+.cache/
+.parcel-cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor Folders
+.vscode/
+.idea/
